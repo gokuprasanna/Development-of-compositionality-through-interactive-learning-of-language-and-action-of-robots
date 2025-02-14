@@ -6,7 +6,7 @@ Author's copy available at https://www.researchgate.net/publication/388277488_De
 
 Compositionality is the ability to compose/decompose a whole into reusable parts and it essential for generailization. It is a property prevelant in Language, in this project we use a neural network architecture based on the Free energy principle to study the development of compositionality in robotic systems through interactive learning. 
 
-Model Architecture: ![alt text](https://github.com/[gokuprasanna]/[Development-of-compositionality-through-interactive-learning-of-language-and-action-of-robots]/blob/[main]/[figures]/fig1.png?raw=true)
+Model Architecture: ![alt text](https://github.com/gokuprasanna/Development-of-compositionality-through-interactive-learning-of-language-and-action-of-robots/blob/main/figures/fig1.png)
 
 Documentation is still in progress.
 
