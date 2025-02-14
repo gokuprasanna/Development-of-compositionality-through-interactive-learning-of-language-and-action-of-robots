@@ -1,9 +1,12 @@
 # FEP-based-model-of-Embodied-Language
-Public repository (in development) to share for the purpose of replicating the results of the associated paper.
+Public repository (in development) to share for the purpose of replicating the results of the associated paper DOI: 10.1126/scirobotics.adp0751.\
+Author's copy available at https://www.researchgate.net/publication/388277488_Development_of_compositionality_through_interactive_learning_of_language_and_action_of_robots 
 
 ## **Project Overview**
 
 Compositionality is the ability to compose/decompose a whole into reusable parts and it essential for generailization. It is a property prevelant in Language, in this project we use a neural network architecture based on the Free energy principle to study the development of compositionality in robotic systems through interactive learning. 
+
+Model Architecture: ![alt text](https://github.com/[gokuprasanna]/[Development-of-compositionality-through-interactive-learning-of-language-and-action-of-robots]/blob/[main]/[figures]/fig1.png?raw=true)
 
 Documentation is still in progress.
 
@@ -21,7 +24,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
-To run training program use the following command:
+## To run training program use the following command:
 
 "python main_train.py --config config/train.yaml --base_lr 0.0005 --num_epochs 5000 --save_interval 500 --eval_interval 100000 --cuda 0 --seed 0 --beta 1e-5 --k 10 --w 1e-3 --w1 1e-3 -w working_directory --lang_loss mse"
 
